@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+
+.brand {
+  background: url(../images/logo.png) no-repeat center center;
+  background-size: cover;
+  width: 256px;
+  height: 128px;
+  margin: auto;
+  text-align: center;
+  text-indent: -9999px;
+}
+
+.carousel img {
+/*  height: 38vh !important;
+  width: auto !important; */
+  margin: auto;
+}
+
+.carousel-indicators {
+  margin-bottom: -0.1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust circle size as needed */
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.75); /* 75% opacity black */
+    border-radius: 50%; /* Makes it a circle */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
